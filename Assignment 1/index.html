@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link href="css/styles.css" rel="stylesheet"/>
+
 </head>
 <body>
 <nav>
-    <ul>
-        <li><a href="index.html">Index</a></li>
-        <li><a href="about.html">About me</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="post.html">Post</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contacts</a></li>
-    </ul>
+
+        <a href="index.html">Index</a>
+        <a href="about.html">About me</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="post.html">Post</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contacts</a>
+
 </nav>
-<h1>Welcome to My Personal Blog</h1>
-<p>Sharing thoughts on web development, travel, and more!</p>
+<div><h1>Welcome to My Personal Blog</h1>
+<p>Sharing thoughts on web development, travel, and more!</p></div>
 <h1>Featured posts</h1>
-<h2>Title 1</h2>
+<slot><h2>Title 1</h2>
 <p>Short description of the blog post</p>
-<button type="button">Read more</button>
+<button type="button">Read more</button></slot>
 <h2>Title 2</h2>
 <p>Short description of the blog post</p>
 <button type="button">Read more</button>
@@ -28,5 +30,6 @@
 <p>Short description of the blog post</p>
 <button type="button">Read more</button>
 </body>
-<footer>2024 My Personal Blog. All rights reserved </footer>
+<footer>
+        2024 My Personal Blog. All rights reserved </footer>
 </html>

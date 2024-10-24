@@ -1,0 +1,25 @@
+div {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    text-align: right;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+body {
+    background-color: lightgray;
+}
+h1{
+    text-align: justify-all;
+    color: gray;
+}
+
+footer {
+    text-align: center;
+}
